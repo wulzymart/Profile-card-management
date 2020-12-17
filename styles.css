@@ -1,0 +1,76 @@
+body{
+  text-align: center;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position:top, bottom;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.container {
+  width:375px;
+  height: 100%;
+  margin: auto;
+}
+.main {
+  width: 350px;
+height: 375px;
+margin: 10% auto auto auto;
+position: relative;
+}
+.profile-picture{
+  width: 25%;
+  position: absolute;
+  top: 100px;
+  left:37.5%;
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 0;
+}
+.top {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 140px;
+  border-radius: 20px 20px 0 0;
+}
+.middle{
+  background-color: white;
+  height: 149px;
+  border-bottom: solid 1px hsl(0, 0%, 59%);
+
+}
+.bottom{
+background-color: white;
+height: 85px;
+border-radius: 0 0 20px 20px;
+}
+h3 {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  margin:0;
+  padding-top: 20%;
+}
+p {
+  color: hsl(227, 10%, 46%);
+}
+span{
+  font-weight: 400;
+  padding-left: 10px;
+  color: hsl(227, 10%, 46%);
+}
+.footer {
+  display: inline-block;
+  width:20%;
+  margin: auto;
+  padding: 0 10px;
+}
+.footer-text {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 20px
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
